@@ -1,74 +1,49 @@
-# Computer_vision_openCV_repo
-everything you need to know in one place
-# OpenCV Bootcamp Examples
+# Computer Vision: OpenCV Manual
+NOTE: Everything you see in the code is made by opencvUniversity bootcamp, use this repo as a hub to find all wanted info in one place, and use the manual that i wrote to guide yourself through your computer vision journey.
 
-This repository contains a collection of Python scripts and Jupyter-converted notebooks demonstrating fundamental OpenCV operations and workflows. These examples serve as a hands‑on companion to the OpenCV Bootcamp course and provide ready-to-run code for:
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-* **Getting Started with Images**
-* **Basic Image Manipulation**
-* **Image Annotation**
-* **Basic Image Enhancement**
-* **Video Writing with OpenCV**
-
-More examples and deeper topics will be added over time, so stay tuned!
+This repository contains a comprehensive **hands-on manual** for OpenCV, authored by Layth Ayache. It accompanies the OpenCV Bootcamp and covers fundamental image I/O, pixel-level operations, classical computer-vision pipelines, and deep-learning workflows—all demonstrated with clear code examples and theory.
 
 ---
 
-## 📂 Repository Structure
+## 📚 Contents
 
-```
-├── 01_getting_started_with_images.py            # Read/display images, inspect properties
-├── 02_basic_image_manipulations_crop_resize_flip_and_modify_pixels.py
-│   # Pixel access, cropping, resizing, flipping
-├── 03_annotating_images.py                     # Draw lines, circles, rectangles, add text
-├── 04_basic_image_enhancement_mathematical_operations.py
-│   # Brightness/contrast, thresholding, bitwise operations
-├── 06_writing_video_using_opencv.py            # Capture and write video in AVI/MP4
-├── Manual_Template.docx                        # Base template for manual/report
-└── README.md                                   # This file
-```
+1. **Introduction**  
+2. **Image Features and Alignment**  
+   - 2.1 Theory of Alignment  
+   - 2.2 Estimating Homography  
+3. **Getting Started with Images**  
+   - 3.1 Loading & Display  
+   - 3.2 Image Properties  
+4. **Basic Image Manipulation**  
+   - 4.1 Color Channels  
+   - 4.2 Color Conversions  
+   - 5. Image Manipulation  
+     - 5.1 Accessing Individual Pixels  
+     - 5.2 Modifying Pixels  
+     - 5.3 Cropping & Resizing  
+     - 5.4 Flipping  
+6. **Image Annotation**  
+   - 6.1 Drawing Lines  
+   - 6.2 Drawing Circles  
+   - 6.3 Drawing Rectangles  
+   - 6.4 Adding Text  
+7. **Image Enhancement**  
+   - 7.1 Brightness & Contrast  
+   - 7.2 Thresholding  
+   - 7.3 Bitwise Operations  
+8. **Camera & Video I/O**  
+   - 8.1 Accessing the Camera  
+   - 8.2 Video Writing  
+9. **Filtering & Edge Detection**  
+10. **Panorama Stitching**  
+11. **High Dynamic Range (HDR)**  
+12. **Object Tracking**  
+13. **Face Detection (SSD-Caffe)**  
+14. **TensorFlow Object Detection (SSD-MobileNet)**  
+15. **Pose Estimation (OpenPose)**  
 
-## 🛠️ Requirements
+> **Conclusion**: Summary & next steps.
 
-* Python 3.6+
-* OpenCV (`opencv-python`)
-* NumPy
-* Matplotlib
-
-Install dependencies with:
-
-```bash
-pip install opencv-python numpy matplotlib
-```
-
-## 🚀 Usage
-
-Each script is standalone. To run an example, invoke it from the command line. For instance:
-
-```bash
-python 01_getting_started_with_images.py
-```
-
-To switch between video files and webcam in the video-writing example:
-
-```bash
-python 06_writing_video_using_opencv.py     # uses hardcoded path or change source variable
-python 06_writing_video_using_opencv.py --video my_clip.mp4
-```
-
-*(Refer to each script’s header comments for more details and optional flags.)*
-
-## 📝 Contributing
-
-This is a personal collection—feel free to fork and adapt. I’m planning to add more tutorials on:
-
-* Advanced filtering (Gaussian, bilateral, morphological)
-* Object detection and tracking
-* GPU acceleration with OpenCV CUDA modules
-* Real-time camera pipelines
-
-If you have suggestions or improvements, open an issue or submit a pull request.
-
-## 🔮 Future Work
-
-I will be expanding this repo with additional examples and deeper dives into computer vision topics, so watch this space for new scripts, notebooks, and documentation!
+---
